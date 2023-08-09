@@ -1,0 +1,12 @@
+"task_mode": "gen"
+"task_setting": 1
+"data_dir": "../twitter_crawl/data_new2/"
+"dataset": "CNN"
+"weighted_loss": 1
+"personal_response_pred": 1
+"lr": 1.e-3
+"exp_msg": "response gen eval"
+"target_splits": [2]
+"verbose_eval": 0
+"eval_only": 1
+"save_output": 1
