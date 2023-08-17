@@ -1,6 +1,6 @@
 
 
-# Response Forecasting for New Media
+# Response Forecasting for News Media
 
 The repository for [Measuring the Effect of Influential Messages on Varying Personas](https://arxiv.org/pdf/2305.16470.pdf) (ACL 2023).
 
