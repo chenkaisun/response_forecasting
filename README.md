@@ -23,6 +23,9 @@ chmod +x scripts/setup.sh
 
 Due to privacy reason, we release data pointers for the data used in the paper. Please download data from [here](https://drive.google.com/drive/folders/1rL8DRzre-wkCc8Pa7xZfhwSpgmVfbzRE?usp=sharing) and use the up-to-date Twitter API to fetch data and populate the dictionaries in each file. After populating the data files, then move the files into `twitter_crawl/data_new2/CNN/`.
 
+For Twitter API, we used v2 endpoints the [Twitter API](https://developer.twitter.com/en/docs/twitter-api) to crawl the data. You would need to sign up for [api keys](https://developer.twitter.com/en/portal/products) to be able to fetch data. We used [Timeline](https://developer.twitter.com/en/docs/twitter-api/tweets/timelines/introduction) to retrieve data for cnn breaking news and user history data. We used [User Lookup](https://developer.twitter.com/en/docs/twitter-api/users/lookup/api-reference/get-users-id) to retrieve user profile information. For defining the fields when calling api, we only used the text field (e.g., the profile description and the tweet text). We use the original field names defined in the api (e.g., `description` for user profile) as our keys in the dictionaries. Note that the our data was crawled before the change in Twitter company re-organization, so the API might have changed.
+
+
 ## Note
 The running of the system might require [wandb](wandb.ai) account login
 
